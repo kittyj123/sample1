@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4e7ff; /* Lavender blend */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#logo {
+    max-width: 100px; /* Adjust the maximum width of the logo */
+    margin-bottom: 10px; /* Add some spacing between the logo and the heading */
+}
+
+#pageTitle {
+    color: #4b0082; /* Indigo */
+    font-size: 2em;
+}
+
+#getResultsBtn {
+    background-color: #9370db; /* Medium Purple */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#getResultsBtn:hover {
+    background-color: #663399; /* Rebecca Purple */
+}
+
+#moreKey {
+    background: linear-gradient(to right, #8a2be2, #ff69b4, #87ceeb); /* Blend of Violet and Blue/Pink */
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#moreKey:hover {
+    filter: brightness(1.2);
+}
+
+
+
+

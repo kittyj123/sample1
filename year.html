@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="yearstyles.css">
+    <title>Sritw Results - Select Year and Branch</title>
+</head>
+<body>
+    <h1 id="pageTitle">Select Year and Branch</h1>
+
+    <form id="resultsForm" class="result-form">
+        <label for="admissionYearSelect">Select Admission Year:</label>
+        <select id="admissionYearSelect" name="admissionYear">
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+        </select>
+
+        <label for="yearSelect">Select Year:</label>
+        <select id="yearSelect" name="year">
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+        </select>
+
+        <label for="branchSelect">Select Branch:</label>
+        <select id="branchSelect" name="branch">
+            <option value="CSM">CSM</option>
+            <option value="CSD">CSD</option>
+            <option value="CSE">CSE</option>
+            <option value="CSC">CSC</option>
+            <option value="ECE">ECE</option>
+        </select>
+
+        
+        
+    </form>
+
+    <script src="yearscript.js"></script>
+<script>
+    function generateNewPage() {
+      window.location.href = 'details.html';
+    }
+  </script>
+</head>
+<body>
+
+  <button onclick="generateNewPage()">enter</button>
+
+</body>
+</body>
+</html>

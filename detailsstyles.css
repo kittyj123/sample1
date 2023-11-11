@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4e7ff; /* Lavender blend */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+input, button {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #9370db;
+}
+
+#showResultsBtn {
+    background-color: #9370db; /* Medium Purple */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#showResultsBtn:hover {
+    background-color: #663399; /* Rebecca Purple */
+}
